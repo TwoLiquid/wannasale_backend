@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{ asset('assets/widget/js/init.js') }}" id="wannaSaleWidget"></script><script type='text/javascript'>document.addEventListener("DOMContentLoaded", function () {WannaSale.Dialog.show({key: '{!! $widget->key !!}',currency: 'RUB',lang: 'ru'});});</script>
